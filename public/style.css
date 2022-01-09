@@ -1,0 +1,21 @@
+body {
+  font-family: verdana;
+}
+#content {
+  display: flex;
+}
+
+#content > * {
+  flex: 1;
+}
+button,
+select,
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+
+#error {
+  color: red;
+}

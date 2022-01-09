@@ -1,0 +1,32 @@
+{
+  "name": "payers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-watch": "webpack -w",
+    "clean": "echo > path/to/bundle.js",
+    "start": "node index.js -e html,js,css --ignore public",
+    "seed": "node seed.js",
+    "format": "prettier --write .",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.12.5",
+    "webpack": "^5.65.0"
+  }
+}
