@@ -21,11 +21,11 @@ Postgres Database
 For convinence seeded some dummy data for the details mentioned in assessment
 **npm run seed**
 
-**Start******
+**Start**
 
 **npm start or node index.js**
 
-**RESTful API's******
+**RESTful API's**
 
 Adding Transaction URL  http://localhost:3000/api/users POST Request
 
@@ -67,5 +67,6 @@ Balance after subsequent call for spend  URL  http://localhost:3000/api/users/ba
     "miller": 5300
 }
 ```
-Used Postman API platform for building and using APIs 
+Used Postman API platform for building and using APIs.
+
 Can download at https://www.postman.com/downloads/
