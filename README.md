@@ -1,6 +1,7 @@
 # Fetch-Rewards-Assessment
 
 **About**
+
 This project is to provide API routes to 
 1) Add transaction route.
 2) Route to spend points.
@@ -11,17 +12,21 @@ Javascript
 Node.js
 Postgres Database
 
-Installing****
+**Installing******
+
 npm install
 
-Seeding data****
+**Seeding data******
+
 For convinence seeded some dummy data for the details mentioned in assessment
 npm run seed
 
-Start****
+**Start******
+
 npm start or node index.js
 
-RESTful API's****
+**RESTful API's******
+
 Adding Transaction URL  http://localhost:3000/api/users POST Request
 
 Response POST /api/users 201 
