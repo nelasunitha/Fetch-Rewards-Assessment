@@ -36,8 +36,7 @@ Response POST /api/users 201
     "payer": “dannon",
     "points": 1000,
     "timestamp": "2020-1-02T14:00:00.000Z",
-    "updatedAt": "2022-01-10T02:39:01.804Z",
-    "createdAt": "2022-01-10T02:39:01.804Z"
+    
 }
 ```
 Spend Points -  PUT Request - URL  http://localhost:3000/api/users/spend/:5000 
