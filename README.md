@@ -52,7 +52,7 @@ Response POST /api/users  ----- 201
 ```
 Spend Points -  PUT Request - URL  http://localhost:3000/api/users/spend/:5000 
 
-Response PUT /api/users/spend/:5000 200 
+Response PUT /api/users/spend/:5000 ------ 200 
 ``` json 
 [
     {
@@ -70,7 +70,7 @@ Response PUT /api/users/spend/:5000 200
 ]
 ```
 Balance after subsequent call for spend - GET request -  URL  http://localhost:3000/api/users/balance 
-Response GET /api/users/balance 200 
+Response GET /api/users/balance ------- 200 
 
 ``` json 
 {
