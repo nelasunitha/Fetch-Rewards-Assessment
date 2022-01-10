@@ -1,3 +1,4 @@
+
 # Fetch-Rewards-Assessment
 
 **About**
@@ -12,17 +13,16 @@ Javascript
 Node.js, Express.js
 Postgres Database
 
-**Installing******
+**How to Install***
 
-**npm install**
+npm install**
 
-**Seeding data******
+**How to Seed**
 
-For convinence seeded some dummy data for the details mentioned in assessment
+For convenience seeded some dummy data for the details mentioned in assessment
+**npm run seed
 
-**npm run seed**
-
-**Start**
+**How to Start**
 
 **npm start or node index.js**
 
@@ -32,10 +32,10 @@ Adding Transaction -  POST Request  - URL  http://localhost:3000/api/users
 
 Response POST /api/users 201 
 ``` json {
-    "id": 7,
-    "payer": "Mike",
+    "id": 1,
+    "payer": “dannon",
     "points": 1000,
-    "timestamp": "2020-11-02T14:00:00.000Z",
+    "timestamp": "2020-1-02T14:00:00.000Z",
     "updatedAt": "2022-01-10T02:39:01.804Z",
     "createdAt": "2022-01-10T02:39:01.804Z"
 }
