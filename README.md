@@ -9,7 +9,7 @@ This project is to provide API routes to
 
 **Requirements**
 Javascript
-Node.js
+Node.js, Express.js
 Postgres Database
 
 **Installing******
