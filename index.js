@@ -12,4 +12,4 @@ if (process.env.SEED) {
     });
 }
 
-app.listen(port, () => console.log(`listening on port ${port} http://localhost:3000`));
+app.listen(port, () => console.log(`listening on port ${port} on http://localhost:3000`));
