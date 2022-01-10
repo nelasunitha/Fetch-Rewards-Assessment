@@ -19,6 +19,7 @@ Postgres Database
 **Seeding data******
 
 For convinence seeded some dummy data for the details mentioned in assessment
+
 **npm run seed**
 
 **Start**
