@@ -14,7 +14,7 @@ This project is to provide API routes to
 
 . Javascript
 
-. Node.js, Express.js
+. Node.js and Express.js
 
 . Postgres Database
 
