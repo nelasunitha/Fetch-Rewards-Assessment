@@ -17,6 +17,7 @@ This project is to provide API routes to
 . Postgres Database
 
 **GitHub** 
+
 Fork this repo to your own Github account. Then git clone your forked repo to your local machine by typing git clone in Terminal/ Command Prompt. cd into the folder
 
 https://github.com/nelasunitha/Fetch-Rewards-Assessment/
@@ -29,7 +30,7 @@ npm install
 
 For convenience seeded some dummy data for the details mentioned in assessment
 
-**npm run seed
+npm run seed
 
 **How to Start**
 
