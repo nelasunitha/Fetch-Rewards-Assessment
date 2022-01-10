@@ -27,7 +27,7 @@ For convinence seeded some dummy data for the details mentioned in assessment
 
 **RESTful API's**
 
-Adding Transaction URL  http://localhost:3000/api/users POST Request
+Adding Transaction -  POST Request  - URL  http://localhost:3000/api/users 
 
 Response POST /api/users 201 
 ``` json {
@@ -39,7 +39,7 @@ Response POST /api/users 201
     "createdAt": "2022-01-10T02:39:01.804Z"
 }
 ```
-Spend Points  URL  http://localhost:3000/api/users/spend/:5000 PUT Request
+Spend Points -  PUT Request - URL  http://localhost:3000/api/users/spend/:5000 
 
 Response PUT /api/users/spend/:5000 200 
 ``` json 
@@ -58,7 +58,8 @@ Response PUT /api/users/spend/:5000 200
     }
 ]
 ```
-Balance after subsequent call for spend  URL  http://localhost:3000/api/users/balance  Response GET /api/users/balance 200 
+Balance after subsequent call for spend - GET request -  URL  http://localhost:3000/api/users/balance 
+Response GET /api/users/balance 200 
 
 ``` json 
 {
@@ -67,6 +68,6 @@ Balance after subsequent call for spend  URL  http://localhost:3000/api/users/ba
     "miller": 5300
 }
 ```
-Used Postman API platform for building and using APIs.
+Used Postman API platform for building and using API's.
 
 Can download at https://www.postman.com/downloads/
