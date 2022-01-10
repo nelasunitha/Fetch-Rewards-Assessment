@@ -14,16 +14,16 @@ Postgres Database
 
 **Installing******
 
-npm install
+**npm install**
 
 **Seeding data******
 
 For convinence seeded some dummy data for the details mentioned in assessment
-npm run seed
+**npm run seed**
 
 **Start******
 
-npm start or node index.js
+**npm start or node index.js**
 
 **RESTful API's******
 
