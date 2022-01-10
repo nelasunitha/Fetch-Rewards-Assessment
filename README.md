@@ -8,23 +8,32 @@ This project is to provide API routes to
 2) Route to spend points.
 3) Route to return balance.  
 
+
+
 **Requirements**
-Javascript
-Node.js, Express.js
-Postgres Database
 
-**How to Install***
+. Javascript
+. Node.js, Express.js
+. Postgres Database
 
-npm install**
+**GitHub** 
+Fork this repo to your own Github account. Then git clone your forked repo to your local machine by typing git clone in Terminal/ Command Prompt. cd into the folder
+
+https://github.com/nelasunitha/Fetch-Rewards-Assessment/
+
+**Installing dependencies**
+
+npm install
 
 **How to Seed**
 
 For convenience seeded some dummy data for the details mentioned in assessment
+
 **npm run seed
 
 **How to Start**
 
-**npm start or node index.js**
+npm start or node index.js
 
 **RESTful API's**
 
