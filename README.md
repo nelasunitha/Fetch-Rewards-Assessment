@@ -42,13 +42,12 @@ npm start or node index.js
 
 Adding Transaction -  POST Request  - URL  http://localhost:3000/api/users 
 
-Response POST /api/users 201 
-``` json {
-    "id": 1,
-    "payer": “dannon",
+Response POST /api/users  ----- 201 
+```{
+    "id": 6,
+    "payer": "dannon",
     "points": 1000,
-    "timestamp": "2020-1-02T14:00:00.000Z",
-    
+    "timestamp": "2020-11-02T14:00:00.000Z",
 }
 ```
 Spend Points -  PUT Request - URL  http://localhost:3000/api/users/spend/:5000 
