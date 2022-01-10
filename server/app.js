@@ -11,7 +11,7 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/*', (req, res) => {
   res.status(404).send({ message: 'Not Found' });
 });
-// For convience used index.html to show the process looks like
+// For convience used index.html to show the process how it looks.
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.use('/', (req, res) => {
