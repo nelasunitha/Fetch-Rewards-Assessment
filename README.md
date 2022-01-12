@@ -30,7 +30,8 @@ npm install
 
 **How to Seed**
 
-For convenience seeded some dummy data for the details mentioned in assessment
+For convenience seeded some dummy data for the details mentioned in assessment, 
+create table 'payers'  using command createdb payer in terminal.
 
 npm run seed
 
