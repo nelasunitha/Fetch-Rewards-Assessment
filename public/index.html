@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="/bundle.js" defer></script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Fetch Rewards</h1>
+    <div id="error"></div>
+    <div id="content">
+      <div>
+        <h2>Add Transaction</h2>
+        <div id="add">
+          <input placeholder="add payer" id="name" />
+          <input placeholder="add points" id="points" />
+          <input placeholder="add date" id="date" />
+          <button data-action="add">Add</button>
+        </div>
+      </div>
+      <div>
+        <h2>Balance </h2>
+        <button data-action="create">Check</button>
+      </div>
+      <div>
+        <h2>Spend Points</h2>
+        <input placeholder="Points to spend" id="spend" />
+      </div>
+    </div>
+  </body>
+</html>
