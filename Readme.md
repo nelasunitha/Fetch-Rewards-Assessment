@@ -1,12 +1,9 @@
 
-# Fetch-Rewards-Assessment
+# Hatchways-Backend-Assessment
 
 **About**
 
-This project is to provide API routes to
-1) Add transaction route.
-2) Route to spend points.
-3) Route to return balance.
+This project is to fetch data from the given remote API with query parameters
 
 
 
@@ -15,8 +12,7 @@ This project is to provide API routes to
 . Javascript
 
 . Node.js and Express.js
-
-. Postgres Database
+.
 
 **GitHub**
 
@@ -28,57 +24,18 @@ https://github.com/nelasunitha/Fetch-Rewards-Assessment/
 
 npm install
 
-**How to Seed**
-
-For convenience seeded some dummy data for the details mentioned in assessment
-
-npm run seed
 
 **How to Start**
 
-npm start or node index.js
+npm start or node app.js
 
 **RESTful API's**
 
-Adding Transaction -  POST Request  - URL  http://localhost:3000/api/users
+  GET Request  - URL  http://localhost:1337/api/ping
 
-Response POST /api/users  ----- 201
-```{
-    "id": 6,
-    "payer": "dannon",
-    "points": 1000,
-    "timestamp": "2020-11-02T14:00:00.000Z",
-}
-```
-Spend Points -  PUT Request - URL  http://localhost:3000/api/users/spend/:5000
+Response GET /api/ping  ----- 200
+` - GET request -  URL  http://localhost:1337/api/posts/design/likes/asc
+Response GET /api/api/posts/design/likes/asc    ----- 200
 
-Response PUT /api/users/spend/:5000 200
-``` json
-[
-    {
-        "payer": "dannon",
-        "points": -100
-    },
-    {
-        "payer": "uniliver",
-        "points": -200
-    },
-    {
-        "payer": "miller",
-        "points": -4700
-    }
-]
-```
-Balance after subsequent call for spend - GET request -  URL  http://localhost:3000/api/users/balance
-Response GET /api/users/balance 200
-
-``` json
-{
-    "dannon": 1000,
-    "uniliver": 0,
-    "miller": 5300
-}
-```
-Used Postman API platform for building and using API's.
-
-Can download at https://www.postman.com/downloads/
+**Caching**
+File serviceworker.js is used for caching purpose.

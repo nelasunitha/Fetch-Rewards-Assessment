@@ -6,8 +6,8 @@ const User = require('./User');
 // this would be a good place to do that:
 
 module.exports = {
-  db,
+ db,
   models: {
-    User,
-  },
+    User
+  }
 };
